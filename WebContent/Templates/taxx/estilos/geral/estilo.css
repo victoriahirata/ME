@@ -1,0 +1,53 @@
+.container-fluid{
+    padding-bottom: 20px;
+}
+.mr-2{
+    margin-right: 2em;
+}
+.font-size-2{
+    font-size:2em;
+}
+.event-section-white {
+    background-color: white;
+}
+.a-black:hover{
+    color: black;
+}
+/*Barra de pesquisa*/
+.src-input-area{ 
+    height: 40px; position: relative; 
+}
+
+.src-input{ 
+    position: absolute; top: 0; bottom: 0; left: 0; width: 100%; padding: 0 50px 0 20px; 
+	border: 0; background-color: white; color:black; 
+	border: 1px solid #ff6a00;
+    border-image: linear-gradient(to right, #ff6a00 0%, #FE018F); border-image-slice: 1; 
+}
+
+.src-btn{ 
+    position: absolute; top: 0; bottom: 0; right: 0; width: 40px; color:black; 
+}
+
+.src-input:focus{
+     outline: 0; box-shadow: none; background: #fff; color: #000; 
+    }
+
+.src-input:focus + .src-btn{ 
+    color: #000; 
+}
+.campos-cadastro textarea,
+.campos-cadastro input{ border: 0;border-radius: 0.25rem; outline: 0; background: rgb(236, 231, 231); }
+.campos-cadastro input{ height: 45px; line-height: normal; width: 100%; padding: 0 20px; }
+
+.campos-cadastro textarea{ width: 100%; padding: 15px 20px; }
+
+.campos-cadastro input:focus,
+.campos-cadastrotextarea:focus{ background: rgb(236, 231, 231); }
+
+.esqueciMinhaSenha{
+    color:#FE018F;
+}
+.esqueciMinhaSenha:hover{
+    color: silver;
+}

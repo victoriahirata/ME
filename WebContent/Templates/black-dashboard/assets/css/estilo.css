@@ -1,0 +1,51 @@
+.card label {
+    font-size: 1rem;
+}
+.form-control{
+    font-size: 1rem;
+}
+.sidebar, .off-canvas-sidebar{
+    background: linear-gradient(0deg, #fb9026 0%, #c81552 100%);
+    background-image: linear-gradient(0deg, rgb(251, 144, 38) 0%, #c81552 100%);
+}
+.main-panel{
+    border-top:2px solid #c81552;
+}
+.btn-primary{
+    background-image: linear-gradient(to bottom left, #c81552, #ff8d72, #ba54f5);
+}
+.btn-primary:hover {
+    background-color: #c81552;
+    border-color: #c81552;
+  }
+
+  
+.card .avatar{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+select{
+    padding-top: 5px !important;
+    font-size: 16px !important;
+    padding-bottom: 5px !important;
+}
+.card-body-contratante{
+    padding-top: 40px !important;
+    padding-bottom: 0px !important;
+}
+.card-footer-contratante{
+    padding-top: 0px !important;
+}
+.card-header-rosa{
+    background-color: #c81552 !important;
+}
+.estrelas{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    color: #c81552;
+}
+.avatar-solicitacao{
+    border-radius: 100%;
+}
